@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*
+Color pallet
+#B1E4B8 - lighter
+#608C66 - light
+#153B1A - darker
+*/
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top,#153B1A,#608C66);
+    }
+    section#login {
+    width: 80vw;
+
+}
+    section#login > div#image {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#form {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top,#153B1A,#608C66);
+    }
+    section#login {
+        width: 950px;
+    }
+    section#login > div#image {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login >div#form {
+        float: right;
+        width: 50%;
+    }
+
+}
