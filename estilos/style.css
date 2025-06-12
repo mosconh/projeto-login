@@ -1,11 +1,10 @@
 @charset "UTF-8";
 /*
 Color pallet
-#B1E4B8 - lighter
-#608C66 - light
-#153B1A - darker
+#675854 - lighter
+#553B36 - light
+#1D1D1D - darker
 */
-
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +14,7 @@ Color pallet
 }
 
 body, html {
-    background-color: #608C66;
+    background-color: #1D1D1D;
     height: 100vh;
     width: 100vw;
 }
@@ -45,14 +44,24 @@ section#login {
 
 section#login > div#image {
     display: block;
-    background: #608C66 url('../imagens/pattern-01.jpg') no-repeat;
+    background: #1D1D1D url('../imagens/pattern-01.jpg') no-repeat;
     background-position: center right;
     background-size: cover;
     height: 200px;
-    box-shadow: 1px 1px 5px #00000057;
+    
 }
 
 section#login > div#form {
     display: block;
     padding: 10px;
+}
+
+div#form > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form > p {
+    font-size: 0.8em;
+    text-align: center;
 }

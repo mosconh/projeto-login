@@ -2,15 +2,15 @@
 
 /*
 Color pallet
-#B1E4B8 - lighter
-#608C66 - light
-#153B1A - darker
+#675854 - lighter
+#553B36 - light
+#1D1D1D - darker
 */
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top,#153B1A,#608C66);
+        background-image: linear-gradient(to top,#1D1D1D,#675854);
     }
     section#login {
     width: 80vw;
@@ -24,24 +24,34 @@ Color pallet
     section#login > div#form {
         float: right;
         width: 70%;
+        font-size: 1.3em;
     }
 }
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top,#153B1A,#608C66);
+        background-image: linear-gradient(to top,#1D1D1D,#675854);
     }
     section#login {
         width: 950px;
     }
     section#login > div#image {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login >div#form {
-        float: right;
+        float: left;
         width: 50%;
+        font-size: 1.6em;
     }
+    div#form > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+    div#form > p {
+    font-size: 0.8em;
+    text-align: center;
+}
 
 }
